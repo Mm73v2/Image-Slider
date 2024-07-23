@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta data -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="image gallery slider js html css" />
+    <meta name="description" content="simple image gallery with slider" />
+
+    <title>Image gallery slider</title>
+
+    <!-- Css files -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Popup -->
+    <div class="popup">
+      <!-- Top bar -->
+      <div class="top-bar">
+        <p class="image-name"></p>
+        <span class="close-btn"></span>
+      </div>
+      <!-- Arrows -->
+      <button class="arrow-btn left-arrow">
+        <img src="images/arrow.png" alt="arrow" />
+      </button>
+      <button class="arrow-btn right-arrow">
+        <img src="images/arrow.png" alt="arrow" />
+      </button>
+      <!-- Image -->
+      <img src="images/img1.png" class="large-image" alt="" />
+      <!-- Image-index -->
+      <h1 class="index"></h1>
+    </div>
+
+    <!-- Images gallery -->
+    <div class="gallery">
+      <div class="gallery-image">
+        <img src="images/img1.png" alt="image" class="image" />
+      </div>
+      <div class="gallery-image">
+        <img src="images/img2.png" alt="image" class="image" />
+      </div>
+      <div class="gallery-image">
+        <img src="images/img3.png" alt="image" class="image" />
+      </div>
+      <div class="gallery-image">
+        <img src="images/img4.png" alt="image" class="image" />
+      </div>
+      <div class="gallery-image">
+        <img src="images/img5.png" alt="image" class="image" />
+      </div>
+      <div class="gallery-image">
+        <img src="images/img6.png" alt="image" class="image" />
+      </div>
+    </div>
+
+    <!-- Main script -->
+    <script src="app.js"></script>
+  </body>
+</html>
